@@ -1,36 +1,44 @@
 import styled from "styled-components"
 
 const StyledHero = styled.div`
-    max-width: 1200px;
-    margin: 0 auto;
+    /* Small Screen */
+    margin: 1rem;
 
     section {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
-        margin-top: 2rem;
+        flex-direction: column;
+        text-align: center;
     }
 
     .hero__left {
-        flex-basis: 50%;
+        margin-bottom: 1.5rem;
+    }
+
+    .hero__right {
+        justify-content: center;
     }
 
     h1 {
         color: #118AB2;
-        font-size: 3rem;
         margin-bottom: 1rem;
+        font-size: 2.44rem;
     }
 
     h3 {
-        font-size: 1.5rem;
-        margin-bottom: 1.5rem;
         color: #06D6A0;
+        margin-bottom: 1rem;
+        font-size: 1.59rem;
     }
 
     p {
-        font-size: 1rem;
-        margin-bottom: 2rem;
         color: #fff;
+        margin-bottom: 2rem;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 25px;
     }
 
     button {
@@ -43,15 +51,30 @@ const StyledHero = styled.div`
         cursor: pointer;
     }
 
-    .hero__right {
-        flex-basis: 50%;
-        display: flex;
-        justify-content: center;
+    /* Medium Screen */
+    @media screen and (min-width: 768px) {
+    /*
+        * Nothing TODO Here.
+        * We dont change style Hero. 
+        */
     }
 
-    img {
-        max-width: 100%;
-        height: auto;
+    /* Large Screen */
+    @media screen and (min-width: 992px) {
+        max-width: 1200px;
+        margin: 3rem auto;
+
+        section {
+            margin: 0 1rem;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            text-align: left;
+        }
+
+        .hero__left {
+            flex-basis: 40%;
+        }
     }
 `
 

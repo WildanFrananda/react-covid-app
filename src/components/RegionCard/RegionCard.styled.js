@@ -3,13 +3,12 @@ import styled from "styled-components"
 const StyledRegionCard = styled.div`
     display: flex;
     flex-direction: column;
-    width: 300px;
     background-color: #07182E;
-    border-radius: 30px;
+    border-radius: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    padding: 20px;
-    margin-left: 35px;
-    margin-bottom: 40px;
+    width: 70vw;
+    margin: 1rem;
+    padding: 1rem;
 
     section {
         display: flex;
@@ -71,6 +70,16 @@ const StyledRegionCard = styled.div`
         flex-direction: column;
         justify-content: right;
         padding: 15px;
+    }
+
+    /* Medium Screen */
+    @media screen and (min-width: 768px) {
+        /* We don't style here */
+    }
+
+    /* Large Screen */
+    @media screen and (min-width: 992px) {
+        /* We don't style here */
     }
 `
 

@@ -1,29 +1,34 @@
 import styled from "styled-components"
 
 const StyledCard = styled.div`
-    .card {
-        width: 300px;
         background: #07182E;
-        position: relative;
         display: flex;
         flex-direction: column;
-        padding: 20px;
-        margin-left: 15px;
-        place-content: center;
-        place-items: center;
+        align-items: center;
         overflow: hidden;
+        margin: 1rem;
+        width: 70vw;
         border-radius: 20px;
-    }
 
-    .card h3 {
+    .status {
         z-index: 1;
         color: white;
-        font-size: 2em;
+        font-size: 1.4rem;
     }
 
-    .card__value {
-        font-size: 1rem;
+    .value {
+        font-size: 2rem;
         margin-top: auto;
+    }
+
+    /* Medium Screen */
+    @media screen and (min-width: 768px) {
+        
+    }
+
+    /* Large Screen */
+    @media screen and (min-width: 992px) {
+        /* We don't style here */
     }
 `
 

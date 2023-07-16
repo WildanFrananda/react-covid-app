@@ -8,24 +8,22 @@ const StyledNavbar = styled.div`
 
     nav {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
+        flex-direction: column;
     }
 
     h1 {
         font-size: 2.4rem;
-        margin: 0;
+        margin: 1rem;
     }
 
     ul {
         list-style: none;
-        margin: 0;
-        padding: 0;
         display: flex;
+        flex-direction: column;
     }
 
     li {
-        margin-left: 1rem;
+        margin-bottom: 1rem;
     }
 
     a {
@@ -63,10 +61,7 @@ const StyledNavbar = styled.div`
 
     /* Large Screen */
     @media screen and (min-width: 992px) {
-        /* 
-        * Nothing TODO HERE.
-        * We haven't styling Navbar.
-        */
+        /* We don't style here */
     }
 
 `

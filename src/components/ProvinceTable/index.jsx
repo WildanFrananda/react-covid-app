@@ -10,7 +10,9 @@ function ProvinceTable(props) {
                 <h1>{title} Province</h1>
                 <h3>Covid Data by Province</h3>
             </div>
-            <Table data={data} />
+            <div className="table__container">
+                <Table data={data} />
+            </div>
         </StyledProvinceTable>
     )
 }

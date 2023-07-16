@@ -1,14 +1,15 @@
 import styled from "styled-components"
 
 const StyledTable = styled.table`
-    width: 55%;
-    justify-content: center;
+    width: 165vw;
     border-collapse: collapse;
-    border-radius: 0.5em;
+    border-spacing: 0;
+    border-radius: 25px;
     overflow: hidden;
     box-shadow: 1px 2px 5px #888888;
     text-align: center;
     table-layout: fixed;
+    margin-left: auto;
 
     thead {
         background-color: #118AB2;
@@ -17,7 +18,6 @@ const StyledTable = styled.table`
 
     th {
         border: 1px solid gray;
-        text-align: left;
         text-align: center;
         padding: 1rem;
     }
