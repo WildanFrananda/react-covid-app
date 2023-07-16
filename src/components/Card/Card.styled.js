@@ -7,6 +7,7 @@ const StyledCard = styled.div`
         align-items: center;
         overflow: hidden;
         margin: 1rem;
+        padding: 1rem;
         width: 70vw;
         border-radius: 20px;
 
@@ -23,7 +24,7 @@ const StyledCard = styled.div`
 
     /* Medium Screen */
     @media screen and (min-width: 768px) {
-        
+        /* We don't style here */
     }
 
     /* Large Screen */

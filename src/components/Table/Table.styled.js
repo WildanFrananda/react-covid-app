@@ -64,6 +64,17 @@ const StyledTable = styled.table`
         color: #fff;
         cursor: pointer;
     }
+
+    /* Medium Screen */
+    @media screen and (min-width: 768px) {
+        width: 90vw;
+        margin-left: 0;
+    }
+
+    /* Large Screen */
+    @media screen and (min-width: 992px) {
+        width: 70vw;
+    }
 `
 
 export default StyledTable

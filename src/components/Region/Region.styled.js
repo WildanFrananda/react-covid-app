@@ -12,14 +12,14 @@ const StyledRegion = styled.div`
     .title {
         font-size: 2.44rem;
         font-weight: 700;
-        margin-bottom: 15px;
+        margin-bottom: 1rem;
         color: #118AB2;
     }
 
     .subtitle {
         font-size: 1.59rem;
         font-weight: 700;
-        margin-bottom: 15px;
+        margin-bottom: 1rem;
         color: #06D6A0;
     }
 
@@ -32,7 +32,15 @@ const StyledRegion = styled.div`
 
     /* Medium Screen */
     @media screen and (min-width: 768px) {
-        /* We don't style here */
+        margin: 2rem auto;
+
+        .region__container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
     }
 
     /* Large Screen */

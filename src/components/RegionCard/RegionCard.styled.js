@@ -20,30 +20,21 @@ const StyledRegionCard = styled.div`
     .card__title {
         letter-spacing: 1px;
         text-transform: capitalize;
-        margin: 15px;
-        font-size: 20px;
+        margin: 1rem;
+        font-size: 1.5rem;
         text-align: center;
         font-weight: 700;
-        margin-bottom: 15px;
-        color: #118AB2;
-    }
-
-    .card__subtitle {
-        line-height: 1.5;
-        margin-bottom: 1.25rem;    
-        font-size: 18px;
-        font-weight: 700;
-        margin-bottom: 15px;
+        margin-bottom: 1rem;
         color: #118AB2;
     }
 
     .hero__left{
-        display: flex;
+        display: inline;
         flex-basis: 50%;
         text-align: left;
-        display: inline;
 
         p {
+            font-size: 1.2rem;
             color: #fff;
         }
 
@@ -61,25 +52,23 @@ const StyledRegionCard = styled.div`
     }
 
     img {
-        width: 40px;
+        display: flex;
+        flex-direction: column;
+        width: 2.6rem;
         height: auto;
         border-radius: 5px;
-        margin: 10px;
-        display: flex;
         flex-basis: 50%;
-        flex-direction: column;
-        justify-content: right;
-        padding: 15px;
+        padding: 2rem;
     }
 
     /* Medium Screen */
     @media screen and (min-width: 768px) {
-        /* We don't style here */
+        width: 40vw;
     }
 
     /* Large Screen */
     @media screen and (min-width: 992px) {
-        /* We don't style here */
+        width: 24vw;
     }
 `
 

@@ -15,7 +15,7 @@ const StyledHero = styled.div`
     }
 
     .hero__right {
-        justify-content: center;
+        display: none;
     }
 
     h1 {
@@ -53,10 +53,12 @@ const StyledHero = styled.div`
 
     /* Medium Screen */
     @media screen and (min-width: 768px) {
-    /*
-        * Nothing TODO Here.
-        * We dont change style Hero. 
-        */
+        margin: 2rem auto;
+
+        section {
+            text-align: justify;
+            margin: 0 1rem;
+        }
     }
 
     /* Large Screen */
@@ -74,6 +76,12 @@ const StyledHero = styled.div`
 
         .hero__left {
             flex-basis: 40%;
+        }
+
+        .hero__right {
+            display: flex;
+            align-items: center;
+            margin-left: 5rem;
         }
     }
 `

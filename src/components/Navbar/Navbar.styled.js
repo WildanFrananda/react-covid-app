@@ -13,13 +13,14 @@ const StyledNavbar = styled.div`
 
     h1 {
         font-size: 2.4rem;
-        margin: 1rem;
+        margin: 1rem 1rem 1rem 0;
     }
 
     ul {
         list-style: none;
         display: flex;
         flex-direction: column;
+        padding: 0 1rem 0 0;
     }
 
     li {

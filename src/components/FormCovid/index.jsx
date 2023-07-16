@@ -124,6 +124,7 @@ function FormCovid() {
                                     name="jumlah"
                                     value={jumlah}
                                     onChange={handleChange}
+                                    placeholder="Insert Amount"
                                 />
                                 {errors.isJumlahError && <Alert>Required Amount</Alert>}
                             </div>

@@ -39,14 +39,14 @@ public class Main {
 }`
 
         return (
-            <div>
+            <main>
                 <CodeBlock
                     text={java}
                     language={"java"}
                     showLineNumbers={true}
                     theme={pojoaque}
                 />
-            </div>
+            </main>
         )
     }
 }

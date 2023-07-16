@@ -37,7 +37,7 @@ const StyledProvinceTable = styled.div`
 
     /* Medium Screen */
     @media screen and (min-width: 768px) {
-        
+        /* We don't style here */
     }
 
     /* Large Screen */

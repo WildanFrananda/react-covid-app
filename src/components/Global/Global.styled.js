@@ -35,12 +35,19 @@ const StyledGlobal = styled.div`
 
     /* Medium Screen */
     @media screen and (min-width: 768px) {
+        margin: 2rem auto;
 
+        .card__container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
     }
 
     /* Large Screen */
     @media screen and (min-width: 992px) {
-        /* We don't style here */
+        margin: 3rem auto;
     }
 `
 
